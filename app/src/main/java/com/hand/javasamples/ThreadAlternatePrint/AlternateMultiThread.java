@@ -1,5 +1,7 @@
 package com.hand.javasamples.ThreadAlternatePrint;
 
+import java.util.LinkedList;
+
 /**
  * 三个及以上线程轮流打印
  */
@@ -49,5 +51,12 @@ public class AlternateMultiThread extends Thread {
             }
         }
 
+    }
+
+    private LinkedList<Integer> adj[];
+
+    public void Graph(int v){
+        adj = new LinkedList[v];
+        adj[0] = new LinkedList<>();
     }
 }
