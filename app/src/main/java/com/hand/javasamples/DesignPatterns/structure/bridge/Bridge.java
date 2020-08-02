@@ -1,5 +1,8 @@
 package com.hand.javasamples.DesignPatterns.structure.bridge;
 
+/**
+ * 桥接模式
+ */
 public abstract class Bridge {
 
 	private Sourceable source;
