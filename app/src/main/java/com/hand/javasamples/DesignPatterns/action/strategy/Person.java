@@ -8,7 +8,7 @@ public class Person {
 		mTravel = travel;
 	}
 
-	public void setmTravel(TransportTravel mTravel) {
+	public void setTravel(TransportTravel mTravel) {
 		this.mTravel = mTravel;
 	}
 

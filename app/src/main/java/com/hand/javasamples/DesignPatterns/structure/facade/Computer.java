@@ -1,5 +1,8 @@
 package com.hand.javasamples.DesignPatterns.structure.facade;
 
+/**
+ * 门面模式，封装接口，封装内部复杂实现，对外提供简单易用接口
+ */
 public class Computer implements Sourceable {
 
 	private CPU cpu;
