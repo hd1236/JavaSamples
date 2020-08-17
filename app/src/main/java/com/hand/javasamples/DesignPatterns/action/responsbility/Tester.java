@@ -25,6 +25,9 @@ public class Tester {
         testFrameMultiFunction();
     }
 
+    /**
+     * 典型链表
+     */
     private static void testTypicLinkedlist(){
         HandleChain chain = new HandleChain();
         chain.addHandler(new HandlerOne());
@@ -34,6 +37,9 @@ public class Tester {
     }
 
 
+    /**
+     * 典型数据
+     */
     private static void testTypicArray(){
         HandleArrayChain chain = new HandleArrayChain();
         chain.addHandler(new HandlerOne());
@@ -43,6 +49,9 @@ public class Tester {
     }
 
 
+    /**
+     * 框架递归
+     */
     private static void testFrameRecursion(){
         FilterChain chain = new FilterChain();
         chain.addFilter(new LogFilterOne());
@@ -51,6 +60,9 @@ public class Tester {
         chain.doFilter("origin request","origin response");
     }
 
+    /**
+     * 框架多方法循环
+     */
     private static void testFrameMultiFunction(){
         InterceptorChain chain = new InterceptorChain();
         chain.addFilter(new LogInterceptorOne());
